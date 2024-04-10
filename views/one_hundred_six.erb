@@ -1,0 +1,12 @@
+<!-- /views/one_hundred_six.erb -->
+<!-- Note difference between silent ERB tags and embedded ERB tags-->
+
+<h1>100d6</h1>
+
+<ul>
+  <% @rolls.each do |a_roll| %>
+    <li>
+      <%= a_roll %>
+    </li>
+  <% end %>
+</ul>
